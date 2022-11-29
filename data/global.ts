@@ -1,6 +1,7 @@
 type Route = {
   title: string;
   path: string;
+  leavesWebsite: boolean;
 };
 
 type FooterCol = {
@@ -15,10 +16,10 @@ type FooterCol = {
 
 type Footer = {
   columns: FooterCol[];
-  support: {
-    buymeacoffee: string;
-    paypal: string;
-    message: string;
+  contact: {
+    email: string;
+    address: string;
+    phone: string;
   };
 };
 
@@ -26,14 +27,17 @@ export const routes: Route[] = [
   {
     title: 'Home',
     path: '/',
+    leavesWebsite: false,
   },
-  // {
-  //   title: "Blog",
-  //   path: "/blog",
-  // },
   {
     title: 'Projects',
     path: '/projects',
+    leavesWebsite: false,
+  },
+  {
+    title: 'Resume',
+    path: '/louis.pdf',
+    leavesWebsite: true,
   },
 ];
 
@@ -47,15 +51,15 @@ export const footer: Footer = {
           link: '/',
           leavesWebsite: false,
         },
-        // {
-        //   name: "Blog",
-        //   link: "/blog",
-        //   leavesWebsite: false,
-        // },
         {
           name: 'Projects',
           link: '/projects',
           leavesWebsite: false,
+        },
+        {
+          name: 'Resume',
+          link: '/louis.pdf',
+          leavesWebsite: true,
         },
       ],
     },
@@ -80,18 +84,12 @@ export const footer: Footer = {
           icon: '/static/icons/discord.svg',
           leavesWebsite: true,
         },
-        {
-          name: 'Email',
-          link: 'mailto:louis.young0420@gmail.com',
-          icon: '/static/icons/mail-f.svg',
-          leavesWebsite: true,
-        },
       ],
     },
   ],
-  support: {
-    buymeacoffee: 'louisyoung0420',
-    paypal: 'louisyoung0420',
-    message: 'I appreciate your support very much! 💙',
+  contact: {
+    email: 'louis.young0420@gmail.com',
+    address: 'Rue du Maupas 33, Lausanne, Switzerland',
+    phone: '+1234567890',
   },
 };

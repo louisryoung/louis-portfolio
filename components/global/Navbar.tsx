@@ -1,6 +1,6 @@
-import Link from "next/link";
-import React from "react";
-import { routes } from "@/data/global";
+import Link from 'next/link';
+import React from 'react';
+import { routes } from '@/data/global';
 
 function Navbar({ currentPage }) {
   return (
@@ -13,9 +13,12 @@ function Navbar({ currentPage }) {
               src="/static/logos/logo_no_text.png"
               width="40"
             />
-            {"Louis Young".split("").map((letter, index) => {
+            {'Louis Young'.split('').map((letter, index) => {
               return (
-                <span key={index} className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim">
+                <span
+                  key={index}
+                  className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
+                >
                   {letter}
                 </span>
               );
@@ -30,11 +33,17 @@ function Navbar({ currentPage }) {
               key={index}
               className={`list-none text-white ${
                 currentPage === item.title
-                  ? "opacity-100"
-                  : "opacity-40 hover:opacity-100 transition-opacity"
+                  ? 'opacity-100'
+                  : 'opacity-40 hover:opacity-100 transition-opacity'
               }`}
             >
-              <Link href={item.path}>{item.title}</Link>
+              {item.leavesWebsite ? (
+                <a href={item.path} target="_blank">
+                  {item.title}
+                </a>
+              ) : (
+                <Link href={item.path}>{item.title}</Link>
+              )}
             </li>
           );
         })}

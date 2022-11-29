@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { footer } from '@/data/global';
 import Image from 'next/image';
+import { FaEnvelope, FaHome, FaPhone } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -41,39 +42,28 @@ function Footer() {
           );
         })}
         <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
-          <h4 className="uppercase text-fun-gray text-sm font-bold">
-            Support My Work
-          </h4>
-          <div className="space-y-2 mt-4 w-full flex items-center sm:items-start flex-col">
-            {footer.support.buymeacoffee !== '' && (
-              <div>
-                <a
-                  href={`https://buymeacoffee.com/${footer.support.buymeacoffee}`}
-                  target="_blank"
-                >
-                  <img
-                    src="/static/misc/buy-me-a-coffee.svg"
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                  />
-                </a>
-              </div>
-            )}
-            {footer.support.paypal !== '' && (
-              <div>
-                <a
-                  href={`https://paypal.me/${footer.support.paypal}`}
-                  target="_blank"
-                >
-                  <img
-                    src="/static/misc/paypal.svg"
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                  />
-                </a>
-              </div>
-            )}
-            <p className="text-fun-gray text-xs pt-1">
-              {footer.support.message}
-            </p>
+          <h4 className="uppercase text-fun-gray text-sm font-bold">Contact</h4>
+          <div className="space-y-1 w-full flex items-center sm:items-start flex-col">
+            <div className="my-2 items-center flex">
+              <span className="pr-2 -mb-1">
+                <FaEnvelope />
+              </span>
+              <span className="ml-1 text-gray-300">{footer.contact.email}</span>
+            </div>
+            <div className="my-2 items-center flex">
+              <span className="pr-2 -mb-1">
+                <FaHome />
+              </span>
+              <span className="ml-1 text-gray-300">
+                {footer.contact.address}
+              </span>
+            </div>
+            <div className="my-2 items-center flex">
+              <span className="pr-2 -mb-1">
+                <FaPhone />
+              </span>
+              <span className="ml-1 text-gray-300">{footer.contact.phone}</span>
+            </div>
           </div>
         </div>
       </div>
@@ -110,7 +100,7 @@ function Footer() {
             </div>
           </div>
           <div className="mt-2 text-xs ">
-            Made by{' '}
+            Developed by{' '}
             <a
               href="mailto:louis.young0420@gmail.com"
               className="text-fun-gray-light font-medium"
