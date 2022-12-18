@@ -2,12 +2,12 @@ import Link from 'next/link';
 import React from 'react';
 import { footer } from '@/data/global';
 import Image from 'next/image';
-import { FaEnvelope, FaHome, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaHome, FaPhone, FaDiscord } from 'react-icons/fa';
 
 function Footer() {
   return (
     <footer className="flex flex-col w-screen px-5 py-10 border-t border-fun-pink-darker z-5 bg-bg">
-      <div className="w-full max-w-4xl m-auto grid grid-cols-2 sm:grid-cols-3 justify-between items-start">
+      <div className="w-full max-w-5xl m-auto grid grid-cols-2 sm:grid-cols-4 justify-between items-start">
         {footer.columns.map((item, index) => {
           return (
             <div key={index} className="text-left mb-5 sm:mb-0">
@@ -41,20 +41,20 @@ function Footer() {
             </div>
           );
         })}
-        <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
+        <div className="text-center col-span-2 sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
           <h4 className="uppercase text-fun-gray text-sm font-bold">Contact</h4>
           <div className="space-y-1 w-full flex items-center sm:items-start flex-col">
             <div className="my-2 items-center flex">
               <span className="pr-2 -mb-1">
                 <FaEnvelope />
               </span>
-              <span className="ml-1 text-gray-300">{footer.contact.email}</span>
+              <span className="ml-1 text-gray-200">{footer.contact.email}</span>
             </div>
             <div className="my-2 items-center flex">
               <span className="pr-2 -mb-1">
                 <FaHome />
               </span>
-              <span className="ml-1 text-gray-300">
+              <span className="ml-1 text-gray-200">
                 {footer.contact.address}
               </span>
             </div>
@@ -62,12 +62,20 @@ function Footer() {
               <span className="pr-2 -mb-1">
                 <FaPhone />
               </span>
-              <span className="ml-1 text-gray-300">{footer.contact.phone}</span>
+              <span className="ml-1 text-gray-200">{footer.contact.phone}</span>
+            </div>
+            <div className="my-2 items-center flex">
+              <span className="pr-2 -mb-1">
+                <FaDiscord />
+              </span>
+              <span className="ml-1 text-gray-200">
+                {footer.contact.discord}
+              </span>
             </div>
           </div>
         </div>
       </div>
-      <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-fun-gray border-t border-fun-pink-dark">
+      <div className="max-w-5xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-fun-gray border-t border-fun-pink-dark">
         <p className="flex flex-col items-center justify-center ">
           <div className="inline-flex items-center uppercase text-xs font-bold tracking-widest">
             Made with{' '}

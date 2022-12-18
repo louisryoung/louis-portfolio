@@ -20,6 +20,7 @@ type Footer = {
     email: string;
     address: string;
     phone: string;
+    discord: string;
   };
 };
 
@@ -74,14 +75,14 @@ export const footer: Footer = {
         },
         {
           name: 'LinkedIn',
-          link: 'https://github.com/louisyoung92',
+          link: 'https://www.linkedin.com/in/louis-young-30965325a/',
           icon: '/static/icons/linkedin-f.svg',
           leavesWebsite: true,
         },
         {
-          name: 'Discord',
-          link: 'https://github.com/louisyoung92',
-          icon: '/static/icons/discord.svg',
+          name: 'Skype',
+          link: 'https://join.skype.com/invite/y7MlWEV16vze',
+          icon: '/static/icons/skype-line.png',
           leavesWebsite: true,
         },
       ],
@@ -89,7 +90,8 @@ export const footer: Footer = {
   ],
   contact: {
     email: 'louis.young0420@gmail.com',
-    address: 'Rue du Maupas 33, Lausanne, Switzerland',
-    phone: '+1234567890',
+    address: 'Rue du Maupas 33, 1004, Lausanne, Vaud, Switzerland',
+    phone: '+41 22 548 01 93',
+    discord: 'Louis#8871',
   },
 };

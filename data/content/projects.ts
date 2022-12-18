@@ -74,7 +74,7 @@ const projects: Project[] = [
   },
   {
     title: 'Card Game',
-    desc: 'A beautiful full-stack card game with animation',
+    desc: 'A card game with GraphQL and CSS animation',
     img: '/static/projects/card-game.png',
     github: 'https://github.com/louisyoung92/card-game-react-graphql',
     tags: ['React', 'TypeScript', 'GraphQL', 'TailwindCSS'],

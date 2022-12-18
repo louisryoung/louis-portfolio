@@ -1,15 +1,21 @@
-import React from "react";
-import { skills } from "@/data/content/home";
+import React from 'react';
+import { skills } from '@/data/content/home';
 
 function Skills() {
   return (
     <div className="flex flex-col md:flex-row justify-between relative mt-60">
-      <h2 className="relative text-3xl w-full text-center md:text-left font-bold md:max-w-lg mb-10 md:mr-10 md:mb-0 md:w-max mr-0 ">
-        <p className="mb-5">I got the experience.</p>
-        <p className="mb-5">My skills cover <span className="heroShiny1 text-fun-pink">wide</span> range of <span className="heroShiny1 text-fun-pink">JavaScript</span> technologies and frameworks.</p>
-        <p>Here is my toolbelt for success.</p>
+      <h2 className="relative text-2xl w-full text-center md:text-left font-bold md:max-w-lg mb-10 md:mr-10 md:mb-0 md:w-max mr-0 ">
+        <p className="mb-5">
+          I am often called as a{' '}
+          <span className="heroShiny1 text-fun-pink">JavaScript</span> expert.
+        </p>
+        <p className="mb-5">
+          My skills cover <span className="heroShiny1 text-fun-pink">wide</span>{' '}
+          range of JavaScript frameworks and technologies.
+        </p>
+        <p>I got the experience.</p>
         <img
-          className="sqD bottom-[-50px] left-[-50px] lg:bottom-0 lg:left-[-35px] z-[-10]"
+          className="sqD bottom-[-80px] left-[-50px] lg:bottom-[30px] lg:left-[-35px] z-[-10]"
           src="/static/doodles/skills/laptop.svg"
         />
         <img

@@ -101,20 +101,20 @@ export const skills: Skill[] = [
 export const testimonials: Testimonial[] = [
   {
     quote:
-      'The code was clean, easy to understand, and exactly what I was looking for. Meticulous you are!',
+      'He completed most of his tasks on time, came up with innovative solutions for the various challenges we faced. I highly recommend him for any of your React projects.',
     name: 'Andre Nerves',
     job: 'CEO of Zebedee',
   },
   {
     quote:
-      'The communication throughout the project was spot on and the genre of design was carried out well.',
-    name: 'Tim Anderson',
-    job: 'Co-Owner of Canary Studio',
+      'The communication throughout the project was spot on and my vision was executed perfectly. And he is a great person with noble work ethic.',
+    name: 'Ethan Lark',
+    job: 'PM of Namtech Solutions',
   },
   {
     quote:
-      'My vision was executed perfectly. The quality and speed of the work was excellent.',
-    name: 'Jeff Hansen',
-    job: 'President of Meettrax',
+      'I am confident in his abilities as a senior front-end developer. The code was clean, easy to understand, and exactly what I was looking for.',
+    name: 'Tim Anderson',
+    job: 'Co-owner of Canary Studio',
   },
 ];
