@@ -13,7 +13,7 @@ function Skills() {
           My skills cover <span className="heroShiny1 text-fun-pink">wide</span>{' '}
           range of JavaScript frameworks and technologies.
         </p>
-        <p>I got the experience.</p>
+        <p>I take pride in writing code that is <span className="heroShiny1 text-fun-pink">clean</span>, <span className="heroShiny1 text-fun-pink">performant</span> and <span className="heroShiny1 text-fun-pink">reliable</span>.</p>
         <img
           className="sqD bottom-[-80px] left-[-50px] lg:bottom-[30px] lg:left-[-35px] z-[-10]"
           src="/static/doodles/skills/laptop.svg"
