@@ -37,7 +37,7 @@ const projects: Project[] = [
     img: '/static/projects/blocket.png',
     link: 'https://www.blocket.se',
     tags: [
-      'React', 'Next.js', 'TypeScript', 'Socket.io', 'GraphQL', 'Apollo', 'Node', 'Express', 'Prisma', 'PostgreSQL'
+      'React', 'Socket.io', 'GraphQL', 'Apollo', 'Node', 'Express', 'Prisma', 'PostgreSQL'
     ],
   },
   {
@@ -86,7 +86,7 @@ const projects: Project[] = [
     img: '/static/projects/michaelhill.png',
     link: 'https://www.michaelhill.com.au',
     tags: [
-      'Vue', 'Nuxt.js', 'PWA', 'Laravel', 'CRM'
+      'Vue', 'Nuxt.js', 'PWA', 'Laravel', 'MySQL', 'CRM'
     ]
   },
   {
