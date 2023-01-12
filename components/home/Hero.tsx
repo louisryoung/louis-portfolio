@@ -8,7 +8,13 @@ function Hero() {
         className="relative heroElem w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1 mt-12"
         style={{ maxWidth: '1200px' }}
       >
-        <p className="text-xl mb-5">Hey👋 there,</p>
+        <p className="text-2xl mb-5">
+          <img
+            className="h-10 inline-block mr-2"
+            src="/static/doodles/hero/wave.gif"
+          />
+          Hey there,
+        </p>
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
           <div className="mb-3">
             I am <span className="heroShiny1 text-fun-pink">Louis</span>,

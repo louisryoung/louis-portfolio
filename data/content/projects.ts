@@ -24,12 +24,12 @@ const projects: Project[] = [
     ],
   },
   {
-    title: 'Tic Tac Toe',
-    desc: 'Single-player and multiplayer Tic Tac Toe game',
-    img: '/static/projects/tic-tac-toe.png',
-    link: 'https://tic-tac-toe-seven-coral.vercel.app',
-    github: 'https://github.com/louisyoung92/tic-tac-toe',
-    tags: ['React', 'TypeScript', 'TailwindCSS', 'Jest'],
+    title: 'Heatrow',
+    desc: 'A simple but an elegant landing page for an real estate company',
+    img: '/static/projects/heatrow.png',
+    link: 'https://heatrow.vercel.app/',
+    github: 'https://github.com/louisyoung92/react-heatrow',
+    tags: ['React', 'TypeScript', 'Sass', 'Motion'],
   },
   {
     title: 'Blocket',
@@ -50,29 +50,44 @@ const projects: Project[] = [
     ],
   },
   {
-    title: 'Advice Generator App',
-    desc: 'A solution to the Advice generator app challenge on Frontend Mentor',
-    img: '/static/projects/advice-generator-app.png',
-    link: 'https://generate-advice.netlify.app',
-    github:
-      'https://github.com/louisyoung92/advice-generator-react-tailwindcss',
-    tags: ['React', 'TailwindCSS'],
+    title: 'Safarika',
+    desc: 'Travel facts about Africa. Take a glimpse of africa’s bewitching attractions',
+    img: '/static/projects/safarika.png',
+    link: 'https://safarika-adeola.netlify.app/',
+    github: 'https://github.com/louisyoung92/safarika-vanilla-javascript',
+    tags: ['JavaScript', 'HTML', 'SaSS'],
   },
-  {
-    title: 'Pyszne.pl',
-    desc: 'Find the best restaurants and pizzerias in your area on Pyszne.pl! Order your favorite pizza, burger, sushi, kebab and much more without leaving your home.',
-    img: '/static/projects/pyszne.png',
-    link: 'https://www.pyszne.pl',
-    tags: [
-      'React', 'Next.js', 'Mobx', 'TypeScript', 'Node', 'Express', 'MongoDB', 'mongoose'
-    ],
-  },
+
   {
     title: 'Pyszne.pl Mobile',
-    desc: 'A mobile app where you can order your food online with delivery - pizza, kebab, sushi, home dinners',
+    desc: 'A mobile app where you can order your food online with delivery - pizza, burger, kebab, sushi, home dinners without leaving your home.',
     img: '/static/projects/pyszne-app.png',
     link: 'https://play.google.com/store/apps/details?id=com.yourdelivery.pyszne&hl=en&gl=US',
     tags: ['React', 'Ionic', 'Mobx', 'TypeScript', 'MaterialUI', 'iOS', 'Android'],
+  },
+  {
+    title: 'FlorAcess',
+    desc: 'Webshop for garden centers, florists and wholesalers.',
+    img: '/static/projects/floracess.png',
+    link: 'https://www.floraccess.com',
+    tags: ['Svelte', 'SvelteKit', 'ElasticSearch', 'Stripe', 'Node.js', 'Express', 'MongoDB'],
+  },
+  {
+    title: 'Tic Tac Toe',
+    desc: 'Single-player and multiplayer Tic Tac Toe game',
+    img: '/static/projects/tic-tac-toe.png',
+    link: 'https://tic-tac-toe-seven-coral.vercel.app',
+    github: 'https://github.com/louisyoung92/tic-tac-toe',
+    tags: ['React', 'TypeScript', 'TailwindCSS', 'Jest'],
+  },
+  {
+    title: 'Micheal Hill',
+    desc: 'Shop online at Michael Hill Australia. Find the perfect gift with our range of diamond engagement rings, diamond jewellery, earrings, watches and bracelets.',
+    img: '/static/projects/michaelhill.png',
+    link: 'https://www.michaelhill.com.au',
+    tags: [
+      'Vue', 'Nuxt.js', 'PWA', 'Laravel', 'CRM'
+    ]
   },
   {
     title: 'Quizzical',
@@ -83,27 +98,13 @@ const projects: Project[] = [
     tags: ['React', 'NextJS', 'TypeScript', 'TailwindCSS'],
   },
   {
-    title: 'Time Tracking Dashboard',
-    desc: 'A solution to the Time tracking dashboard challenge on Frontend Mentor.',
-    img: '/static/projects/time-tracking-dashboard.png',
-    link: 'https://time-tracking-dashbord.netlify.app',
-    github: 'https://github.com/louisyoung92/time-tracking-dashboard-react',
-    tags: ['React', 'SASS'],
-  },
-  {
-    title: 'Card Game',
-    desc: 'A card game with GraphQL and CSS animation',
-    img: '/static/projects/card-game.png',
-    github: 'https://github.com/louisyoung92/card-game-react-graphql',
-    tags: ['React', 'TypeScript', 'GraphQL', 'TailwindCSS'],
-  },
-  {
-    title: "Trịnh Minh Nhật's Store",
-    desc: 'A fully responsive modern Full Stack eCommerce website with Payments functionality.',
-    img: '/static/projects/trinh-store.png',
-    link: 'https://nextjs-ecommerce-sanity-stripe.netlify.app',
-    github: 'https://github.com/louisyoung92/trinh-store',
-    tags: ['React', 'NextJS', 'Stripe'],
+    title: 'Advice Generator App',
+    desc: 'A solution to the Advice generator app challenge on Frontend Mentor',
+    img: '/static/projects/advice-generator-app.png',
+    link: 'https://generate-advice.netlify.app',
+    github:
+      'https://github.com/louisyoung92/advice-generator-react-tailwindcss',
+    tags: ['React', 'TailwindCSS'],
   },
 ];
 
