@@ -4,7 +4,7 @@ import { skills } from '@/data/content/home';
 function Skills() {
   return (
     <div className="flex flex-col md:flex-row justify-between relative mt-60">
-      <h2 className="relative text-2xl w-full text-center md:text-left font-bold md:max-w-lg mb-10 md:mr-10 md:mb-0 md:w-max mr-0 ">
+      <h2 className="relative text-2xl w-full text-center md:text-left font-bold md:max-w-lg mb-16 md:mr-10 md:mb-0 md:w-max mr-0 ">
         <p className="mb-5">
           I am often called {' '}
           <span className="heroShiny1 text-fun-pink">JavaScript</span> expert.

@@ -41,9 +41,9 @@ function Footer() {
             </div>
           );
         })}
-        <div className="text-center col-span-2 sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
+        <div className="col-span-2 sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
           <h4 className="uppercase text-fun-gray text-sm font-bold">Contact</h4>
-          <div className="space-y-1 w-full flex items-center sm:items-start flex-col">
+          <div className="space-y-1 w-full flex flex-col">
             <div className="my-2 items-center flex">
               <span className="pr-2 -mb-1">
                 <FaEnvelope />
@@ -76,7 +76,7 @@ function Footer() {
         </div>
       </div>
       <div className="max-w-5xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-fun-gray border-t border-fun-pink-dark">
-        <p className="flex flex-col items-center justify-center ">
+        <div className="flex flex-col items-center justify-center ">
           <div className="inline-flex items-center uppercase text-xs font-bold tracking-widest">
             Made with{' '}
             <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
@@ -117,7 +117,7 @@ function Footer() {
             </a>
             . All rights reserved.
           </div>
-        </p>
+        </div>
       </div>
     </footer>
   );
