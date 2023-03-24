@@ -13,7 +13,7 @@ const projects: Project[] = [
     title: 'Zebedee Mobile Wallet',
     desc: 'A bitcoin wallet where game developers and game players earn bitcoin with games (Android, iOS)',
     img: '/static/projects/zebedee-mobile-wallet.png',
-    link: 'https://play.google.com/store/apps/details?id=io.zebedee.wallet',
+    link: 'https://zebedee.io/app',
     tags: [
       'React Native',
       'Flow',
@@ -28,7 +28,7 @@ const projects: Project[] = [
     desc: 'A simple but an elegant landing page for an real estate company',
     img: '/static/projects/heatrow.png',
     link: 'https://heatrow.vercel.app/',
-    github: 'https://github.com/louisyoung92/react-heatrow',
+    github: 'https://github.com/louisryoung/react-heatrow',
     tags: ['React', 'TypeScript', 'Sass', 'Motion'],
   },
   {
@@ -44,7 +44,7 @@ const projects: Project[] = [
     title: 'Blocket App',
     desc: 'Mobile app of Blocket (iOS, Android)',
     img: '/static/projects/blocket-app.png',
-    link: 'https://play.google.com/store/apps/details?id=se.appcorn.Blocket',
+    link: 'https://www.blocket.se/om/blocket-mobil-app',
     tags: [
       'React', 'Ionic', 'Capacitor', 'Socket.io', 'GraphQL', 'Apollo',
     ],
@@ -54,7 +54,7 @@ const projects: Project[] = [
     desc: 'Travel facts about Africa. Take a glimpse of africa’s bewitching attractions',
     img: '/static/projects/safarika.png',
     link: 'https://safarika-adeola.netlify.app/',
-    github: 'https://github.com/louisyoung92/safarika-vanilla-javascript',
+    github: 'https://github.com/louisryoung/safarika-vanilla-javascript',
     tags: ['JavaScript', 'HTML', 'SaSS'],
   },
 
@@ -62,7 +62,7 @@ const projects: Project[] = [
     title: 'Pyszne.pl Mobile',
     desc: 'A mobile app where you can order your food online with delivery - pizza, burger, kebab, sushi, home dinners without leaving your home.',
     img: '/static/projects/pyszne-app.png',
-    link: 'https://play.google.com/store/apps/details?id=com.yourdelivery.pyszne&hl=en&gl=US',
+    link: 'https://apps.apple.com/us/app/pyszne-pl/id1039818673',
     tags: ['React', 'Ionic', 'Mobx', 'TypeScript', 'MaterialUI', 'iOS', 'Android'],
   },
   {
@@ -77,7 +77,7 @@ const projects: Project[] = [
     desc: 'Single-player and multiplayer Tic Tac Toe game',
     img: '/static/projects/tic-tac-toe.png',
     link: 'https://tic-tac-toe-seven-coral.vercel.app',
-    github: 'https://github.com/louisyoung92/tic-tac-toe',
+    github: 'https://github.com/louisryoung/tic-tac-toe',
     tags: ['React', 'TypeScript', 'TailwindCSS', 'Jest'],
   },
   {
@@ -94,7 +94,7 @@ const projects: Project[] = [
     desc: 'Ready to answer 5 simple questions?',
     img: '/static/projects/quizzical.png',
     link: 'https://quiz-app5.netlify.app',
-    github: 'https://github.com/louisyoung92/quiz-app-nextjs',
+    github: 'https://github.com/louisryoung/quiz-app-nextjs',
     tags: ['React', 'NextJS', 'TypeScript', 'TailwindCSS'],
   },
   {
@@ -103,7 +103,7 @@ const projects: Project[] = [
     img: '/static/projects/advice-generator-app.png',
     link: 'https://generate-advice.netlify.app',
     github:
-      'https://github.com/louisyoung92/advice-generator-react-tailwindcss',
+      'https://github.com/louisryoung/advice-generator-react-tailwindcss',
     tags: ['React', 'TailwindCSS'],
   },
 ];
