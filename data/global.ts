@@ -68,6 +68,12 @@ export const footer: Footer = {
       title: 'Social',
       links: [
         {
+          name: 'Twitter',
+          link: 'https://twitter.com/LouisYoung0420',
+          icon: '/static/icons/twitter-line.png',
+          leavesWebsite: true,
+        },
+        {
           name: 'GitHub',
           link: 'https://github.com/louisryoung',
           icon: '/static/icons/github-f.svg',
@@ -75,7 +81,7 @@ export const footer: Footer = {
         },
         {
           name: 'LinkedIn',
-          link: 'https://www.linkedin.com/in/louis-young-30965325a/',
+          link: 'https://www.linkedin.com/in/louisyoung0420',
           icon: '/static/icons/linkedin-f.svg',
           leavesWebsite: true,
         },
@@ -92,6 +98,6 @@ export const footer: Footer = {
     email: 'louis.young0420@gmail.com',
     address: 'Rue du Maupas 33, 1004, Lausanne, Vaud, Switzerland',
     phone: '+41 22 548 01 93',
-    discord: 'Louis#8871',
+    discord: 'louisyoung',
   },
 };
