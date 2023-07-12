@@ -114,7 +114,7 @@ function Footer() {
 					<div className="mt-2 text-xs ">
 						Developed by{' '}
 						<a
-							href="mailto:louis.young0420@gmail.com"
+							href="mailto:louisyoung420@gmail.com"
 							className="text-fun-gray-light font-medium"
 						>
 							Louis Young
