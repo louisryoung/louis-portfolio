@@ -68,21 +68,27 @@ export const footer: Footer = {
 			title: 'Social',
 			links: [
 				{
+					name: 'Email',
+					link: 'mailto:louisyoung420@gmail.com',
+					icon: '/static/icons/mail-f.svg',
+					leavesWebsite: true,
+				},
+				{
 					name: 'Twitter',
 					link: 'https://twitter.com/LouisYoung0420',
 					icon: '/static/icons/twitter-line.png',
 					leavesWebsite: true,
 				},
 				{
-					name: 'GitHub',
-					link: 'https://github.com/louisryoung',
-					icon: '/static/icons/github-f.svg',
-					leavesWebsite: true,
-				},
-				{
 					name: 'LinkedIn',
 					link: 'https://www.linkedin.com/in/louisyoung420',
 					icon: '/static/icons/linkedin-f.svg',
+					leavesWebsite: true,
+				},
+				{
+					name: 'GitHub',
+					link: 'https://github.com/louisryoung',
+					icon: '/static/icons/github-f.svg',
 					leavesWebsite: true,
 				},
 				{
