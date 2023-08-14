@@ -16,30 +16,32 @@ function Footer() {
 							</h4>
 							<div>
 								{item.links.map((item, index) => {
-									return (
-										<div key={index} className="my-3">
-											{item.leavesWebsite ? (
-												<a
-													href={item.link}
-													target="_blank"
-													className="items-center flex hover:text-fun-pink"
-												>
-													{item.icon && (
-														<span className="pr-2 -mb-1">
-															<Image src={item.icon} width={20} height={20} />
-														</span>
-													)}
-													{item.name}
-												</a>
-											) : (
-												<Link href={item.link}>
-													<div className="hover:text-fun-pink cursor-pointer">
+									if (item.name !== 'Email') {
+										return (
+											<div key={index} className="my-3">
+												{item.leavesWebsite ? (
+													<a
+														href={item.link}
+														target="_blank"
+														className="items-center flex hover:text-fun-pink"
+													>
+														{item.icon && (
+															<span className="pr-2 -mb-1">
+																<Image src={item.icon} width={20} height={20} />
+															</span>
+														)}
 														{item.name}
-													</div>
-												</Link>
-											)}
-										</div>
-									);
+													</a>
+												) : (
+													<Link href={item.link}>
+														<div className="hover:text-fun-pink cursor-pointer">
+															{item.name}
+														</div>
+													</Link>
+												)}
+											</div>
+										);
+									}
 								})}
 							</div>
 						</div>
@@ -47,14 +49,19 @@ function Footer() {
 				})}
 				<div className="col-span-2 sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
 					<h4 className="uppercase text-fun-gray text-sm font-bold">Contact</h4>
-					<div className="space-y-4 w-full flex flex-col">
-						<div className="mt-3 items-center flex">
+					<div className="space-y-3 w-full flex flex-col">
+						<a
+							className="my-2 items-center flex cursor-pointer"
+							href={`mailto:${footer.contact.email}`}
+						>
 							<span className="pr-2 -mb-1">
 								<FaEnvelope />
 							</span>
-							<span className="ml-1 text-gray-200">{footer.contact.email}</span>
-						</div>
-						<div className="my-3 items-center flex">
+							<span className="ml-1 hover:text-fun-pink text-gray-200">
+								{footer.contact.email}
+							</span>
+						</a>
+						<div className="my-2 items-center flex">
 							<span className="pr-2 -mb-1">
 								<FaHome />
 							</span>
@@ -62,20 +69,28 @@ function Footer() {
 								{footer.contact.address}
 							</span>
 						</div>
-						<div className="my-3 items-center flex">
+						<a
+							className="my-2 items-center flex cursor-pointer"
+							href={`tel:${footer.contact.phone}`}
+						>
 							<span className="pr-2 -mb-1">
 								<FaPhone />
 							</span>
-							<span className="ml-1 text-gray-200">{footer.contact.phone}</span>
-						</div>
-						<div className="my-3 items-center flex">
+							<span className="ml-1 hover:text-fun-pink text-gray-200">
+								{footer.contact.phone}
+							</span>
+						</a>
+						<a
+							className="my-2 items-center flex cursor-pointer"
+							href="https://discord.com/channels/@me"
+						>
 							<span className="pr-2 -mb-1">
 								<FaDiscord />
 							</span>
-							<span className="ml-1 text-gray-200">
+							<span className="ml-1 text-gray-200 hover:text-fun-pink">
 								{footer.contact.discord}
 							</span>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>

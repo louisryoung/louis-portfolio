@@ -18,10 +18,10 @@ function Hero() {
 					Hey there,
 				</p>
 				<h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg leading-tight">
-					<div className="mb-3">
+					<div className="mb-3 md:mb-6">
 						I am <span className="heroShiny1 text-fun-pink">Louis</span>,
 					</div>
-					<div className="mb-3">
+					<div className="mb-3 md:mb-6">
 						a <span className="heroShiny1 text-fun-pink">front-end</span>{' '}
 						engineer
 					</div>
@@ -91,22 +91,26 @@ function Hero() {
 				>
 					More about me
 				</a>
-				<div className="flex justify-center space-x-4 md:space-x-8 mt-10">
-					{footer.columns[1].links.map(({ link, icon }) => (
-						<a
-							key={icon}
-							className="whitespace-nowrap p-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors flex justify-center items-center bg-opacity-75"
-							target="_blank"
-							href={link}
-						>
-							<Image
-								src={icon}
-								width={20}
-								height={20}
-								className="brightness-200"
-							/>
-						</a>
-					))}
+				<div className="flex justify-center space-x-6 md:space-x-10 mt-10">
+					{footer.columns[1].links.map(({ link, icon, name }) => {
+						if (name !== 'Skype') {
+							return (
+								<a
+									key={icon}
+									className="whitespace-nowrap p-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors flex justify-center items-center bg-opacity-75"
+									target="_blank"
+									href={link}
+								>
+									<Image
+										src={icon}
+										width={20}
+										height={20}
+										className="brightness-200"
+									/>
+								</a>
+							);
+						}
+					})}
 				</div>
 			</div>
 		</>
