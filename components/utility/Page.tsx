@@ -7,7 +7,7 @@ import React from 'react';
 function Page({ currentPage, meta: { desc }, children }: PageProps) {
 	const pageTitle = `${
 		currentPage === 'Home'
-			? 'Louis Young - a Software Engineer based in Switzerland'
+			? 'Louis Young - a Software Engineer'
 			: `${currentPage} - Louis Young Portfolio`
 	}`;
 	return (
@@ -44,7 +44,7 @@ function Page({ currentPage, meta: { desc }, children }: PageProps) {
 				<meta property="og:description" content={desc} />
 				<meta
 					property="og:image"
-					content="https://live.staticflickr.com/65535/53170146217_16682f6051_z.jpg"
+					content="https://live.staticflickr.com/65535/53170962439_9f8749f76a_z.jpg"
 				></meta>
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:title" content={pageTitle} />
