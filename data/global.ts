@@ -103,7 +103,7 @@ export const footer: Footer = {
 	contact: {
 		email: 'louisyoung420@gmail.com',
 		address: 'Rue du Maupas 33, 1004, Lausanne, Vaud, Switzerland',
-		phone: '+41 22 548 01 93',
+		phone: '+41 22 548 09 47',
 		discord: 'louisyoung',
 	},
 };
