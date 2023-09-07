@@ -17,21 +17,21 @@ import Testimonials from '@/components/home/Testimonials';
 // }
 
 export default function Home() {
-  return (
-    <Page
-      currentPage="Home"
-      meta={{
-        desc: "I'm a front-end software engineer coding beautiful and performant websites and apps.",
-      }}
-    >
-      <Hero />
-      <div className="mt-20 space-y-32">
-        <Projects />
-        <Skills />
-        <Testimonials />
-        {/* <Posts allPosts={allPosts} /> */}
-      </div>
-      <CTA />
-    </Page>
-  );
+	return (
+		<Page
+			currentPage="Home"
+			meta={{
+				desc: 'I have been coding beautiful and performant websites and mobile apps for over 7 years. Please check my portfolio and reach out to me if you like my work!',
+			}}
+		>
+			<Hero />
+			<div className="mt-20 space-y-32">
+				<Projects />
+				<Skills />
+				<Testimonials />
+				{/* <Posts allPosts={allPosts} /> */}
+			</div>
+			<CTA />
+		</Page>
+	);
 }
