@@ -22,7 +22,7 @@ function Hero() {
 						I am <span className="heroShiny1 text-fun-pink">Louis</span>,
 					</div>
 					<div className="mb-3 md:mb-6">
-						a <span className="heroShiny1 text-fun-pink">front-end</span>{' '}
+						a <span className="heroShiny1 text-fun-pink">software</span>{' '}
 						engineer
 					</div>
 					based in{' '}
