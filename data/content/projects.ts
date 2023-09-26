@@ -31,8 +31,8 @@ const projects: Project[] = [
 		tags: ['Vue', 'Nuxt', 'TypeScript', 'Pinia'],
 	},
 	{
-		title: 'Learn Web3',
-		desc: 'LearnWeb3 is a free platform to take you from zero to hero in Web3.',
+		title: 'MetaMask Learn',
+		desc: 'MetaMask is a free platform to take you from zero to hero in Web3.',
 		img: '/static/projects/web3.jpg',
 		link: 'https://learn.metamask.io/',
 		tags: ['React', 'Next', 'Lit', 'GSAP', 'Node.js'],
