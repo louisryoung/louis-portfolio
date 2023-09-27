@@ -22,8 +22,8 @@ function Hero() {
 						I am <span className="heroShiny1 text-fun-pink">Louis</span>,
 					</div>
 					<div className="mb-3 md:mb-6">
-						a software
-						<span className="heroShiny1 text-fun-pink">consultant</span>
+						a Software{' '}
+						<span className="heroShiny1 text-fun-pink">Consultant</span>
 					</div>
 					based in{' '}
 					<span className="heroShiny2 text-white bg-[#F70000] px-2 -py-1 mt-2 md:mt-0">
