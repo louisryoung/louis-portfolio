@@ -7,12 +7,12 @@ import React from 'react';
 function Page({ currentPage, meta: { desc }, children }: PageProps) {
 	const pageTitle = `${
 		currentPage === 'Home'
-			? 'Louis Young - a Software Engineer'
+			? 'Louis Young - a Software Consultant'
 			: `${currentPage} - Louis Young Portfolio`
 	}`;
 	return (
 		<div
-			className="w-full m-auto flex flex-col items-center justify-center min-h-screen opening-box-animate-paddin text-white overflow-hidden md:overflow-visible"
+			className="w-full m-auto flex flex-col items-center justify-center min-h-screen opening-box-animate-padding text-white overflow-hidden md:overflow-visible"
 			style={{ maxWidth: '1200px' }}
 		>
 			<Head>
