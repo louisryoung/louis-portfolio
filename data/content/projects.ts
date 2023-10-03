@@ -7,7 +7,7 @@ const projects: Project[] = [
 		desc: 'Swiss-made watches for kids',
 		img: '/static/projects/blok-watches.jpg',
 		link: 'https://blokwatches.com/',
-		tags: ['Vue', 'Nuxt', 'Vuex', 'Stripe', 'GSAP', 'Laravel', 'PostgreSQL'],
+		tags: ['Vue', 'Nuxt', 'TypeScript', 'Pinia', 'Stripe', 'GSAP', 'Laravel', 'PostgreSQL'],
 	},
 	{
 		title: 'MetaMask Learn',
@@ -21,7 +21,7 @@ const projects: Project[] = [
 		desc: 'Build a blockchain using the best-in-class open source libraries and services',
 		img: '/static/projects/cosmos.jpg',
 		link: 'https://cosmos.network/',
-		tags: ['Vue', 'Nuxt', 'TypeScript', 'Pinia'],
+		tags: ['Vue', 'Nuxt', 'Vuex'],
 	},
 	{
 		title: 'Zebedee Developer Dashboard',
@@ -45,7 +45,7 @@ const projects: Project[] = [
 		tags: ['Svelte', 'SvelteKit', 'Swiper', 'TailwindCSS'],
 	},
 	{
-		title: 'meettrax (Beta Version)',
+		title: 'meettrax (Beta version)',
 		desc: 'The modern all-in-one platform to take your sports meets to the next level',
 		img: '/static/projects/meettrax.jpg',
 		link: 'https://meettrax.com/',
@@ -62,14 +62,14 @@ const projects: Project[] = [
 		],
 	},
 	{
-		title: 'CrowdFeed (In Development)',
+		title: 'CrowdFeed (In development)',
 		desc: 'RSS feeds from your favorite creators',
 		img: '/static/projects/crowdfeed.jpg',
 		link: 'https://crowdfeed.com/',
 		tags: ['Vue', 'Nuxt', 'TailwindCSS', 'Pinia', 'Capacitor', 'Python', 'Django'],
 	},
 	{
-		title: 'Tic Tac Toe',
+		title: 'Tic Tac Toe (Open source)',
 		desc: 'A single-player and multiplayer Tic Tac Toe game',
 		img: '/static/projects/tic-tac-toe.jpg',
 		link: 'https://tic-tac-toe-seven-coral.vercel.app',
