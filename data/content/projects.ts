@@ -7,7 +7,7 @@ const projects: Project[] = [
 		desc: 'Swiss-made watches for kids',
 		img: '/static/projects/blok-watches.jpg',
 		link: 'https://blokwatches.com/',
-		tags: ['Vue', 'Nuxt', 'Vuex', 'Stripe', 'GSAP', 'Node.js'],
+		tags: ['Vue', 'Nuxt', 'Vuex', 'Stripe', 'GSAP', 'Laravel', 'PostgreSQL'],
 	},
 	{
 		title: 'MetaMask Learn',
