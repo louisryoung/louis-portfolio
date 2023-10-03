@@ -9,11 +9,6 @@ function Skills() {
 			<div className="flex flex-col md:flex-row justify-between relative">
 				<ul className="relative text-xl text-fun-gray-light w-full text-center md:text-left font-bold md:max-w-lg mb-16 md:mr-10 md:mb-0 md:w-max mr-0">
 					<li className="mb-5">
-						✔️ Proficiency at wide range of{' '}
-						<span className="heroShiny1 text-fun-pink">JavaScript</span>{' '}
-						libraries.
-					</li>
-					<li className="mb-5">
 						✔️ Detail-oriented{' '}
 						<span className="heroShiny1 text-fun-pink">UI/UX</span> Development
 					</li>
@@ -24,8 +19,18 @@ function Skills() {
 							(Web, iOS/Android, Desktop)
 						</span>
 					</li>
-					<li className="mb-5">✔️ Performance Optimization</li>
-					<li className="mb-5">✔️ Full-stack Development if needed</li>
+					<li className="mb-5">✔️ Server-side Development
+						<br />
+						<span className="heroShiny1 text-fun-pink">
+							(Laravel, Node.js)
+						</span>
+					</li>
+					<li className="mb-5">✔️{' '}
+						<span className="heroShiny1 text-fun-pink">Performance</span> Optimization
+					</li>
+					<li className="mb-5">✔️{' '}
+						<span className="heroShiny1 text-fun-pink">SEO</span> Optimization
+					</li>
 					<img
 						className="sqD bottom-[-80px] left-[-50px] lg:bottom-[30px] lg:left-[-35px] z-[-10]"
 						src="/static/doodles/skills/laptop.svg"
