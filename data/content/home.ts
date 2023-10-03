@@ -36,7 +36,7 @@ export const skills: Skill[] = [
 	},
 	{
 		title: 'NextJS',
-		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg',
+		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
 		style: { filter: 'invert(1)' },
 	},
 	{
@@ -48,28 +48,36 @@ export const skills: Skill[] = [
 		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg',
 	},
 	{
+		title: 'Vuetify',
+		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuetify/vuetify-original.svg',
+	},
+	{
 		title: 'Svelte',
 		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',
-	},
-	{
-		title: 'Ember',
-		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ember/ember-original-wordmark.svg',
-	},
-	{
-		title: 'Gatsby',
-		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-original.svg',
-	},
-	{
-		title: 'Electron',
-		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg',
 	},
 	{
 		title: 'Ionic',
 		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original.svg',
 	},
 	{
+		title: 'Electron',
+		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg',
+	},
+	{
 		title: 'GraphQL',
 		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg',
+	},
+	{
+		title: 'Jest',
+		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
+	},
+	{
+		title: 'Storybook',
+		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg',
+	},
+	{
+		title: 'Socket.io',
+		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg',
 	},
 	{
 		title: 'NodeJS',
@@ -81,10 +89,6 @@ export const skills: Skill[] = [
 		style: { filter: 'invert(1)' },
 	},
 	{
-		title: 'Meteor',
-		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/meteor/meteor-original.svg',
-	},
-	{
 		title: 'PHP',
 		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
 	},
@@ -93,8 +97,16 @@ export const skills: Skill[] = [
 		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg',
 	},
 	{
-		title: 'Git',
-		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+		title: 'MySQL',
+		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+	},
+	{
+		title: 'PostgreSQL',
+		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+	},
+	{
+		title: 'MongoDB',
+		icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
 	},
 ];
 
