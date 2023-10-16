@@ -35,7 +35,7 @@ const projects: Project[] = [
 		desc: 'Shop the best toys, apparel, gifts and more at camp.com.',
 		img: '/static/projects/camp.jpg',
 		link: 'https://camp.com/',
-		tags: ['Remix', 'TypeScript', 'GraphQL', 'Apollo', 'TailwindCSS', 'Node.js'],
+		tags: ['React', 'Remix', 'TypeScript', 'GraphQL', 'Apollo', 'TailwindCSS', 'Node.js'],
 	},
 	{
 		title: 'Cantine Cotiere',
