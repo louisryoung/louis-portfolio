@@ -11,7 +11,7 @@ const projects: Project[] = [
 	},
 	{
 		title: 'Alz Guide',
-		desc: 'Your dementia-network. Find support in your region.',
+		desc: 'Are you suffering from Alzheimer? Find support in your region.',
 		img: '/static/projects/alzguide.jpg',
 		link: 'https://alzguide.ch/',
 		tags: ['React', 'Next.js', 'Redux', 'MaterialUI', 'Emotion', 'Node.js'],
