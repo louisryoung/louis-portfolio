@@ -19,17 +19,18 @@ function Skills() {
 							(Web, iOS/Android, Desktop)
 						</span>
 					</li>
-					<li className="mb-5">✔️ Server-side Development
+					<li className="mb-5">
+						✔️ Server-side Development
 						<br />
-						<span className="heroShiny1 text-fun-pink">
-							(Laravel, Node.js)
-						</span>
+						<span className="heroShiny1 text-fun-pink">(Laravel, Node.js)</span>
 					</li>
-					<li className="mb-5">✔️{' '}
-						<span className="heroShiny1 text-fun-pink">Performance</span> Optimization
+					<li className="mb-5">
+						✔️ <span className="heroShiny1 text-fun-pink">Performance</span>{' '}
+						Optimization
 					</li>
-					<li className="mb-5">✔️{' '}
-						<span className="heroShiny1 text-fun-pink">SEO</span> Optimization
+					<li className="mb-5">
+						✔️ <span className="heroShiny1 text-fun-pink">SEO</span>{' '}
+						Optimization
 					</li>
 					<img
 						className="sqD bottom-[-80px] left-[-50px] lg:bottom-[30px] lg:left-[-35px] z-[-10]"

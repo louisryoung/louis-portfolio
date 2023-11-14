@@ -7,7 +7,16 @@ const projects: Project[] = [
 		desc: 'Swiss-made watches for kids',
 		img: '/static/projects/blok-watches.jpg',
 		link: 'https://blokwatches.com/',
-		tags: ['Vue', 'Nuxt', 'TypeScript', 'Pinia', 'Stripe', 'GSAP', 'Laravel', 'PostgreSQL'],
+		tags: [
+			'Vue',
+			'Nuxt',
+			'TypeScript',
+			'Pinia',
+			'Stripe',
+			'GSAP',
+			'Laravel',
+			'PostgreSQL',
+		],
 	},
 	{
 		title: 'Alz Guide',
@@ -18,7 +27,7 @@ const projects: Project[] = [
 	},
 	{
 		title: 'Houses of the World',
-		desc: "Houses Of the World is a project showcasing charismatic houses around the world. Explore locations.",
+		desc: 'Houses Of the World is a project showcasing charismatic houses around the world. Explore locations.',
 		img: '/static/projects/houses.jpg',
 		link: 'https://housesof.world/',
 		tags: ['Svelte', 'SvelteKit', 'Lenis', 'Vite'],
@@ -46,7 +55,7 @@ const projects: Project[] = [
 	},
 	{
 		title: 'TDE',
-		desc: "Digital creatives in sport. At TDE, we love sports and harness its unparalleled power in marketing.",
+		desc: 'Digital creatives in sport. At TDE, we love sports and harness its unparalleled power in marketing.',
 		img: '/static/projects/tde.jpg',
 		link: 'https://www.tde.nl/',
 		tags: ['Svelte', 'SvelteKit', 'Laravel'],
@@ -56,7 +65,14 @@ const projects: Project[] = [
 		desc: 'Shop the best toys, apparel, gifts and more at camp.com.',
 		img: '/static/projects/camp.jpg',
 		link: 'https://camp.com/',
-		tags: ['Remix', 'TypeScript', 'GraphQL', 'Apollo', 'TailwindCSS', 'Node.js'],
+		tags: [
+			'Remix',
+			'TypeScript',
+			'GraphQL',
+			'Apollo',
+			'TailwindCSS',
+			'Node.js',
+		],
 	},
 	{
 		title: 'Cosmos',
@@ -70,7 +86,15 @@ const projects: Project[] = [
 		desc: 'RSS feeds from your favorite creators',
 		img: '/static/projects/crowdfeed.jpg',
 		link: 'https://crowdfeed.com/',
-		tags: ['Vue', 'Nuxt', 'TailwindCSS', 'Pinia', 'Capacitor', 'Python', 'Django'],
+		tags: [
+			'Vue',
+			'Nuxt',
+			'TailwindCSS',
+			'Pinia',
+			'Capacitor',
+			'Python',
+			'Django',
+		],
 	},
 	{
 		title: 'meettrax (Still in beta version)',
@@ -87,6 +111,7 @@ const projects: Project[] = [
 			'Laravel',
 			'MySQL',
 			'Redis',
+			'Electron',
 		],
 	},
 	{

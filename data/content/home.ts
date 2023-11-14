@@ -114,19 +114,19 @@ export const testimonials: Testimonial[] = [
 	{
 		quote:
 			'He completed most of his tasks on time, came up with innovative solutions for the various challenges we faced. I highly recommend him for any of your React projects.',
-			name: 'Ethan Lark',
-			job: 'PM of Blok Watches',
-		},
-		{
-			quote:
-				'I am confident in his abilities as a senior developer. The code was clean, easy to understand, and exactly what I was looking for.',
-			name: 'Andre Nerves',
-			job: 'Co-owner of Cantine Cotiere',
-		},
-		{
-			quote:
+		name: 'Ethan Lark',
+		job: 'PM of Blok Watches',
+	},
+	{
+		quote:
+			'I am confident in his abilities as a senior developer. The code was clean, easy to understand, and exactly what I was looking for.',
+		name: 'Andre Nerves',
+		job: 'Co-owner of Cantine Cotiere',
+	},
+	{
+		quote:
 			'The communication throughout the project was spot on and my vision was executed perfectly. And he is a great person with noble work ethic.',
-			name: 'Tim Anderson',
-			job: 'CEO of Camp',
-		},
+		name: 'Tim Anderson',
+		job: 'CEO of Camp',
+	},
 ];
