@@ -3,22 +3,6 @@ import { Project } from 'types';
 
 const projects: Project[] = [
 	{
-		title: 'Blok Watches',
-		desc: 'Swiss-made watches for kids',
-		img: '/static/projects/blok-watches.jpg',
-		link: 'https://blokwatches.com/',
-		tags: [
-			'Vue',
-			'Nuxt',
-			'TypeScript',
-			'Pinia',
-			'Stripe',
-			'GSAP',
-			'Laravel',
-			'PostgreSQL',
-		],
-	},
-	{
 		title: 'Alz Guide',
 		desc: 'Are you suffering from Alzheimer? Find support in your region.',
 		img: '/static/projects/alzguide.jpg',
@@ -31,48 +15,6 @@ const projects: Project[] = [
 		img: '/static/projects/seaforester.jpg',
 		link: 'https://www.seaforester.org/',
 		tags: ['React', 'Next.js', 'TypeScript', 'Prismic'],
-	},
-	{
-		title: 'Giopato & Coombes',
-		desc: 'Together with selected artisans, Giopato & Coombes look for the best manufacture technique for every single project',
-		img: '/static/projects/giopato.jpg',
-		link: 'https://www.giopatocoombes.com/',
-		tags: ['Vue', 'Nuxt', 'TypeScript', 'Node.js'],
-	},
-	{
-		title: 'MetaMask Learn',
-		desc: 'MetaMask is a free platform to take you from zero to hero in Web3',
-		img: '/static/projects/web3.jpg',
-		link: 'https://learn.metamask.io/',
-		tags: ['React', 'Next.js', 'Lit', 'GSAP', 'Node.js'],
-	},
-	{
-		title: 'TDE',
-		desc: 'Digital creatives in sport. At TDE, we love sports and harness its unparalleled power in marketing.',
-		img: '/static/projects/tde.jpg',
-		link: 'https://www.tde.nl/',
-		tags: ['Svelte', 'SvelteKit', 'Laravel'],
-	},
-	{
-		title: 'CAMP',
-		desc: 'Shop the best toys, apparel, gifts and more at camp.com.',
-		img: '/static/projects/camp.jpg',
-		link: 'https://camp.com/',
-		tags: [
-			'Remix',
-			'TypeScript',
-			'GraphQL',
-			'Apollo',
-			'TailwindCSS',
-			'Node.js',
-		],
-	},
-	{
-		title: 'Cosmos',
-		desc: 'Build a blockchain using the best-in-class open source libraries and services',
-		img: '/static/projects/cosmos.jpg',
-		link: 'https://cosmos.network/',
-		tags: ['Vue', 'Nuxt', 'Vuex'],
 	},
 	{
 		title: 'CrowdFeed (In development)',
