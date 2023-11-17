@@ -26,13 +26,6 @@ const projects: Project[] = [
 		tags: ['React', 'Next.js', 'Redux', 'MaterialUI', 'Emotion', 'Node.js'],
 	},
 	{
-		title: 'Houses of the World',
-		desc: 'Houses Of the World is a project showcasing charismatic houses around the world. Explore locations.',
-		img: '/static/projects/houses.jpg',
-		link: 'https://housesof.world/',
-		tags: ['Svelte', 'SvelteKit', 'Lenis', 'Vite'],
-	},
-	{
 		title: 'SeaForester',
 		desc: 'Seaforestation is a great way to revive our lost ocean forests.',
 		img: '/static/projects/seaforester.jpg',
