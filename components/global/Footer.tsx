@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { footer } from '@/data/global';
 import Image from 'next/image';
-import { FaEnvelope, FaHome, FaPhone, FaDiscord } from 'react-icons/fa';
+import { FaEnvelope, FaHome, FaPhone } from 'react-icons/fa';
 
 function Footer() {
 	return (
@@ -80,17 +80,6 @@ function Footer() {
 								{footer.contact.phone}
 							</span>
 						</a>
-						<a
-							className="my-2 items-center flex cursor-pointer"
-							href="https://discord.com/channels/@me"
-						>
-							<span className="pr-2 -mb-1">
-								<FaDiscord />
-							</span>
-							<span className="ml-1 text-gray-200 hover:text-fun-pink">
-								{footer.contact.discord}
-							</span>
-						</a>
 					</div>
 				</div>
 			</div>
@@ -129,7 +118,7 @@ function Footer() {
 					<div className="mt-2 text-xs ">
 						Developed by{' '}
 						<a
-							href="mailto:louisyoung420@gmail.com"
+							href="mailto:louiskevyoung@gmail.com"
 							className="text-fun-gray-light font-medium"
 						>
 							Louis Young

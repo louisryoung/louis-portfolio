@@ -20,7 +20,6 @@ type Footer = {
 		email: string;
 		address: string;
 		phone: string;
-		discord: string;
 	};
 };
 
@@ -34,11 +33,6 @@ export const routes: Route[] = [
 		title: 'Projects',
 		path: '/projects',
 		leavesWebsite: false,
-	},
-	{
-		title: 'Resume',
-		path: '/louis.pdf',
-		leavesWebsite: true,
 	},
 ];
 
@@ -57,11 +51,6 @@ export const footer: Footer = {
 					link: '/projects',
 					leavesWebsite: false,
 				},
-				{
-					name: 'Resume',
-					link: '/louis.pdf',
-					leavesWebsite: true,
-				},
 			],
 		},
 		{
@@ -69,7 +58,7 @@ export const footer: Footer = {
 			links: [
 				{
 					name: 'Email',
-					link: 'mailto:louisyoung420@gmail.com',
+					link: 'mailto:louiskevyoung@gmail.com',
 					icon: '/static/icons/mail-f.svg',
 					leavesWebsite: true,
 				},
@@ -81,7 +70,7 @@ export const footer: Footer = {
 				},
 				{
 					name: 'LinkedIn',
-					link: 'https://www.linkedin.com/in/louisyoung420',
+					link: 'https://www.linkedin.com/in/louis-kevin-young',
 					icon: '/static/icons/linkedin-f.svg',
 					leavesWebsite: true,
 				},
@@ -91,19 +80,12 @@ export const footer: Footer = {
 					icon: '/static/icons/github-f.svg',
 					leavesWebsite: true,
 				},
-				{
-					name: 'Skype',
-					link: 'https://join.skype.com/invite/y7MlWEV16vze',
-					icon: '/static/icons/skype-line.png',
-					leavesWebsite: true,
-				},
 			],
 		},
 	],
 	contact: {
-		email: 'louisyoung420@gmail.com',
+		email: 'louiskevyoung@gmail.com',
 		address: 'Rue du Maupas 33, 1004, Lausanne, Vaud, Switzerland',
 		phone: '+41 22 548 09 47',
-		discord: 'louisyoung',
 	},
 };
